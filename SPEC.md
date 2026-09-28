@@ -70,7 +70,7 @@ tests/
 ## 5. Step-by-Step Implementation Checklist
 
 ### Phase 1: Core Domain Engine & Data Layer
-- [ ] 1.1 Strict domain data models in `clausewindow/models.py` (`Action`, `Clause`, `PlaybookRule`, `PolicyResult`, `ContractReviewReceipt`)
+- [x] 1.1 Strict domain data models in `clausewindow/models.py` (`Action`, `Clause`, `PlaybookRule`, `PolicyResult`, `ContractReviewReceipt`)
 - [ ] 1.2 SQLite audit store in `clausewindow/storage.py` with signed receipts, timestamps, and `actor=human` sign-off tracking
 - [ ] 1.3 Whole-document text & PDF extraction engine in `clausewindow/pdf_engine.py` using `pypdf` with zero vector chunking
 - [ ] 1.4 Playbook specification and deviation scoring in `clausewindow/playbook_engine.py`
