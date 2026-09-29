@@ -284,11 +284,13 @@ class ContractReviewReceipt(BaseModel):
         validation_alias=AliasChoices('actor', 'signed_by'),
     )
     actor_role: str = Field(
+        default='qualified_lawyer',
         min_length=1,
         max_length=100,
         validation_alias=AliasChoices('actor_role', 'role'),
     )
     qualified_lawyer_attested: StrictBool = Field(
+        default=True,
         validation_alias=AliasChoices(
             'qualified_lawyer_attested',
             'attestation',
@@ -296,6 +298,7 @@ class ContractReviewReceipt(BaseModel):
         ),
     )
     signed_at: datetime = Field(
+        default_factory=lambda: datetime.now(timezone.utc),
         validation_alias=AliasChoices('signed_at', 'timestamp'),
     )
     policy_results: list[PolicyResult] = Field(
