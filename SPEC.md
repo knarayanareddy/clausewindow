@@ -84,8 +84,8 @@ tests/
 ### Phase 3: Application API & Operator Console
 - [x] 3.1 FastAPI application in `clausewindow/api.py` with `/api/v1/review`, `/api/v1/receipts/{id}`, and `/health`
 - [x] 3.2 Self-contained dark-slate contract heatmap dashboard in `web/templates/index.html` with permanently anchored "Not Legal Advice" banner
-- [ ] 3.3 Command-line interface and demo runner in `clausewindow/main.py` (`python main.py demo` and `python main.py serve`)
-- [ ] 3.4 API integration tests in `tests/test_api.py` verifying real HTTP multipart uploads and JSON contract review responses
+- [x] 3.3 Command-line interface and demo runner in `clausewindow/main.py` (`python main.py demo` and `python main.py serve`)
+- [x] 3.4 API integration tests in `tests/test_api.py` verifying real HTTP multipart uploads and JSON contract review responses
 
 ### Phase 4: Production Hardening & CI
 - [ ] 4.1 Pyproject.toml and requirements.txt with all dependencies pinned (`fastapi`, `uvicorn`, `pydantic`, `pypdf`, `jinja2`, `pytest`, `httpx`)
