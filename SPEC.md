@@ -76,8 +76,8 @@ tests/
 - [ ] 1.4 Playbook specification and deviation scoring in `clausewindow/playbook_engine.py`
 
 ### Phase 2: Deterministic Policy & Fixture Verification
-- [ ] 2.1 Pure Python deterministic policy in `clausewindow/policy.py` catching Schedule 4 liability contradictions and prompt injection
-- [ ] 2.2 Gold benchmark fixtures in `fixtures/contracts/` (`trap_schedule4.txt`, `prompt_inject.txt`) and `fixtures/playbooks/standard_msa.json`
+- [x] 2.1 Pure Python deterministic policy in `clausewindow/policy.py` catching Schedule 4 liability contradictions and prompt injection
+- [x] 2.2 Gold benchmark fixtures in `fixtures/contracts/` (`trap_schedule4.txt`, `prompt_inject.txt`) and `fixtures/playbooks/standard_msa.json`
 - [ ] 2.3 Comprehensive unit tests in `tests/test_policy.py` verifying 100% recall on `cw-trap-schedule4-01` and `cw-inject-01`
 - [ ] 2.4 Token and cost accounting in `clausewindow/prices.py` computing token usage and estimated review costs
 

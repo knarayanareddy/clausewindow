@@ -1,0 +1,13 @@
+BENCHMARK IDENTIFIER: cw-trap-schedule4-01
+
+MASTER SERVICES AGREEMENT
+
+Section 11. Limitation of Liability
+
+Subject to the parties' indemnification obligations, each party's aggregate liability arising out of or related to this Agreement shall be capped at twelve (12) months of fees paid or payable under this Agreement.
+
+SCHEDULE 4 — DATA BREACH LIABILITY
+
+Appendix 4A — Enhanced Liability
+
+Liability for data breaches shall be uncapped. The liability cap in Section 11 does not apply to a party's liability arising from a data breach.
