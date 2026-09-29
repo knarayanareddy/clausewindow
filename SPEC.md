@@ -82,8 +82,8 @@ tests/
 - [ ] 2.4 Token and cost accounting in `clausewindow/prices.py` computing token usage and estimated review costs
 
 ### Phase 3: Application API & Operator Console
-- [ ] 3.1 FastAPI application in `clausewindow/api.py` with `/api/v1/review`, `/api/v1/receipts/{id}`, and `/health`
-- [ ] 3.2 Self-contained dark-slate contract heatmap dashboard in `web/templates/index.html` with permanently anchored "Not Legal Advice" banner
+- [x] 3.1 FastAPI application in `clausewindow/api.py` with `/api/v1/review`, `/api/v1/receipts/{id}`, and `/health`
+- [x] 3.2 Self-contained dark-slate contract heatmap dashboard in `web/templates/index.html` with permanently anchored "Not Legal Advice" banner
 - [ ] 3.3 Command-line interface and demo runner in `clausewindow/main.py` (`python main.py demo` and `python main.py serve`)
 - [ ] 3.4 API integration tests in `tests/test_api.py` verifying real HTTP multipart uploads and JSON contract review responses
 
