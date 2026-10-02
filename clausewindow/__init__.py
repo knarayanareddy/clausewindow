@@ -7,6 +7,19 @@ from .models import (
     PlaybookRule,
     PolicyResult,
 )
+from .playbook_engine import (
+    DEFAULT_MAX_PLAYBOOK_BYTES,
+    Playbook,
+    PlaybookEngine,
+    PlaybookError,
+    PlaybookEvaluationError,
+    PlaybookLoadError,
+    PlaybookReview,
+    PlaybookSpecification,
+    PlaybookValidationError,
+    load_playbook,
+    score_deviation,
+)
 from .policy import (
     CONSTITUTIONAL_RULE,
     DeterministicPolicy,
@@ -23,9 +36,18 @@ from .policy import (
 __all__ = [
     "Action",
     "Clause",
-    "PlaybookRule",
-    "PolicyResult",
     "ContractReviewReceipt",
+    "PolicyResult",
+    "Playbook",
+    "PlaybookEngine",
+    "PlaybookError",
+    "PlaybookEvaluationError",
+    "PlaybookLoadError",
+    "PlaybookReview",
+    "PlaybookRule",
+    "PlaybookSpecification",
+    "PlaybookValidationError",
+    "DEFAULT_MAX_PLAYBOOK_BYTES",
     "CONSTITUTIONAL_RULE",
     "PolicyEngine",
     "DeterministicPolicy",
@@ -36,4 +58,6 @@ __all__ = [
     "detect_schedule4_trap",
     "intercept_prompt_injection",
     "detect_prompt_injection",
+    "load_playbook",
+    "score_deviation",
 ]
